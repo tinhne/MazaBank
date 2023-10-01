@@ -1,0 +1,48 @@
+.dashboard {
+    background-color: #eeeeee;
+}
+
+.user_name {
+    font-size: 2.6em;
+    font-family: "Calibri Light";
+}
+
+.date_lbl {
+    text-fill: #aaaaaa;
+    font-size: 1.1em;
+    font-family: "Calibri Light";
+}
+
+/* Account View */
+.account_view {
+    background-color: #ffffff;
+    background-radius: 10 0 0 10;
+    padding: 10 0 10 0;
+    alignment: center;
+    border-width: 0 1 0 0;
+    border-color: #dddddd;
+    spacing: 10;
+}
+
+.account {
+    background-radius: 5;
+    effect: dropshadow(three-pass-box, #aaaaaa, 10 0 0 10);
+}
+
+.account VBox {
+    background-color: #ffffff;
+}
+
+.account Text {
+    fill: #ffffff;
+    font-family: "Calibri Light";
+    font-size: 1.5em;
+}
+
+.account FontAwesomeIconView {
+    fill: #ffffff;
+}
+
+.account_checking {
+    background-color: linear-grandient(to right, #132a13, #253f25);
+}
