@@ -1,0 +1,39 @@
+
+.cell_container {
+    -fx-background-color: #eee;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, #ddd, 5, 0, 0, 7);
+}
+
+.trans_icon_container {
+    -fx-alignment: center;
+    -fx-background-color: #fff;
+    -fx-spacing: 5;
+}
+
+.trans_date_lbl {
+    -fx-text-fill: #aaa;
+    -fx-font-weight: 700;
+}
+
+.trans_pAddress_lbl {
+    -fx-text-fill: #000;
+    -fx-font-weight: 700;
+}
+
+.cell_container Line {
+    -fx-stroke: #eee;
+}
+
+.trans_amount_lbl {
+    -fx-background-color: #132a13;
+    -fx-background-radius: 3;
+    -fx-text-fill: #fff;
+    -fx-padding: 5;
+    -fx-font-weight: 700;
+}
+
+.trans_amount_lbl FontAwesomeIconView {
+    -fx-fill: #fff;
+}
+
