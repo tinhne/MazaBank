@@ -1,5 +1,6 @@
 package com.example.mazabank.Controllers.Admin;
 
+import com.example.mazabank.Models.Client;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -16,6 +17,9 @@ public class ClientCellController implements Initializable {
     public Label date_lbl;
     public Button delete_btn;
 
+    public final Client client;
+
+    public ClientCellController(Client client) {this.client = client; };
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
